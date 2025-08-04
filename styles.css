@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Sora", sans-serif;
+  background-color: #FAFAF9;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    width: 1136px;
+    margin: 162px auto;
+}
+
+.reviewers, .testimonial {
+    flex: 1;
+}
+
+.etoile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5C044;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    margin-bottom: 12px;
+}
+
+.reviewers p:nth-of-type(2) {
+    font-size: 1.25rem;
+    color: #52525A;
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+
+li {
+    margin-bottom: 12px;
+    color: #52525A;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+}
+
+li img {
+    margin-right: 8px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+article img {
+    width: 30%;
+    height: auto;
+}
+
+article div {
+    display: flex;
+}
+
+.rating{
+    display: flex;
+    gap: 4px;
+    margin-left: 20px;
+    width: 40%;
+    height: auto;
+}
+
+.google, .meta{
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 28px 40px;
+    width: 400px;
+}
+
+.google {
+    margin-bottom: 40px;
+    align-self: flex-end;
+}
+
+.meta {
+    align-self: flex-start;
+}
+
+h2 {
+    margin: 16px 0 8px;
+}
