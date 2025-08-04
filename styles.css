@@ -86,7 +86,7 @@ article div {
     display: flex;
     gap: 4px;
     margin-left: 20px;
-    width: 40%;
+    width: 45%;
     height: auto;
 }
 
@@ -95,12 +95,17 @@ article div {
     border-radius: 10px;
     background-color: #FFFFFF;
     padding: 28px 40px;
-    width: 400px;
+    width: 370px;
 }
 
 .google {
     margin-bottom: 40px;
     align-self: flex-end;
+}
+
+.google p,
+.meta p {
+    color: #52525A;
 }
 
 .meta {
@@ -109,4 +114,33 @@ article div {
 
 h2 {
     margin: 16px 0 8px;
+    font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .rating{
+        width: 35%;
+    }
+}
+
+@media (max-width: 640px) {
+    .google, .meta{
+        width: 90vw;
+    }
+
+    .rating{
+        width: 25%;
+    }
+
+    article img {
+        width: 20%;
+        height: auto;
+    }
+
+
 }
